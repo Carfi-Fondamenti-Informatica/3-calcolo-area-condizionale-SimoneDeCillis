@@ -1,32 +1,26 @@
 #include <iostream>
 using namespace std;
 
-
 int main() {
     float a,b;
     int opzione;
-
- cin>>a>>b;
- cin>>opzione;
-    switch (opzione) {
-            
+ cin >> a >> b;
+ cin >> opzione;
+    switch (opzione) {     
         case 0:
-            cout<<((a*b)/2)<<endl;
+            cout<< ((a*b)/2) <<endl;
             break;
-
-        case 1:
-            
-            cout<<(a*a)<<endl;
+        case 1:            
+            cout<< (a*a) <<endl;
             break;
-
         case 2:
-            cout<<(a*b)<<endl;
+            cout<< (a*b) <<endl;
             break;
-
 
             default:
-            cout<<"opzione non valida"<<endl;
+            cout<< "opzione non valida" <<endl;
 
     }
+    
     return 0;
 }
