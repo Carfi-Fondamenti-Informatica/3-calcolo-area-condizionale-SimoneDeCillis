@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main() {
-    float areat,areaq,arear,a,b;
+    float areat=0,areaq,arear,a,b;
     int opzione;
 
     cin>>a>>b>>opzione;
