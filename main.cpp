@@ -3,25 +3,24 @@ using namespace std;
 
 
 int main() {
-    float areat=0,areaq,arear,a,b;
+    float a,b;
     int opzione;
 
-    cin>>a>>b>>opzione;
+ cin>>a>>b;
+ cin>>opzione;
     switch (opzione) {
-
+            
         case 0:
-            areat=(a*b)/2;
-            cout<<areat<<endl;
+            cout<<((a*b)/2)<<endl;
             break;
 
         case 1:
-            areaq=a*a;
-            cout<<areaq<<endl;
+            
+            cout<<(a*a)<<endl;
             break;
 
         case 2:
-            arear=a*b;
-            cout<<arear<<endl;
+            cout<<(a*b)<<endl;
             break;
 
 
